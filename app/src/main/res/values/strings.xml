@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Your System</string>
+    <string name="logo">Your System</string>
+    <string name="greetings">Welcome to the application "your system".
+        This application is designed to improve and organize your life.</string>
+    <string name="butt_start">start</string>
+    <string name="butt_offline_mode">Offline</string>
+    <string name="butt_online_mode">Online</string>
+</resources>
