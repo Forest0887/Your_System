@@ -1,9 +1,21 @@
 <resources>
     <string name="app_name">Your System</string>
     <string name="logo">Your System</string>
+
     <string name="greetings">Welcome to the application "your system".
         This application is designed to improve and organize your life.</string>
     <string name="butt_start">start</string>
+
     <string name="butt_offline_mode">Offline</string>
+    <string name="infoAboutOffline">All your data will be only in your device</string>
     <string name="butt_online_mode">Online</string>
+    <string name="infoAboutOnline">All your data will be stored on our server and will be available
+        from any device</string>
+
+    <string name="notes">Notes</string>
+    <string name="timetable">Timetable</string>
+    <string name="progress">Progress</string>
+    <string name="settings">Settings</string>
+    <string name="map">Map</string>
+
 </resources>
