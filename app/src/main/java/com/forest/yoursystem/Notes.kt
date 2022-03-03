@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Timetable : AppCompatActivity() {
+class Notes : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.timetable)
+        setContentView(R.layout.notes)
 
         val btnBack = findViewById<Button>(R.id.btnBack)
         btnBack.setOnClickListener {

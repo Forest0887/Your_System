@@ -25,5 +25,16 @@
     <string name="fr">Fr</string>
     <string name="sa">Sa</string>
     <string name="su">Su</string>
+    <string name="DateAndDayOfWeek">Hello! Today is …</string>
+    <string name="listOfLesson">Lesson 1\nLesson 2\nLesson 3\nLesson 4\nLesson 5\nLesson 6\nLesson 7\n</string>
+    <string name="back">Back</string>
+
+    <string name="plus">+</string>
+
+    <string name="language">Language</string>
+    <string name="working_mode">Working mode</string>
+    <string name="dark_light_mode">Dark Light mode</string>
+    <string name="info">Info</string>
+    <string name="tetris">Tetris</string>
 
 </resources>

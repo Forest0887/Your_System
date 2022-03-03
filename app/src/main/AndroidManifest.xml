@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YourSystem">
         <activity
+            android:name=".Settings"
+            android:exported="true" />
+        <activity
+            android:name=".Progress"
+            android:exported="true" />
+        <activity
+            android:name=".Notes"
+            android:exported="true" />
+        <activity
             android:name=".Timetable"
             android:exported="true" />
         <activity

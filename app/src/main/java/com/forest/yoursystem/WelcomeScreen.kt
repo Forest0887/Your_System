@@ -10,11 +10,10 @@ class WelcomeScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.welcome_screen)
 
-        // Переход между разными Activity
         val btnStart = findViewById<Button>(R.id.btnStart)
         btnStart.setOnClickListener {
             val startNewActivity = Intent(this, ModeSelection::class.java)
             startActivity(startNewActivity)
-         }
+        }
     }
 }
