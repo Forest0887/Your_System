@@ -28,6 +28,17 @@ class Settings : AppCompatActivity() {
             startActivity(startNewActivity)
         }
 
-        
+        val btnLanguage = findViewById<Button>(R.id.btnLanguage)
+        btnLanguage.setOnClickListener {
+            val startNewActivity = Intent(this, Language::class.java)
+            startActivity(startNewActivity)
+        }
+
+        val btnTetrisMenu = findViewById<Button>(R.id.btnTetris)
+        btnTetrisMenu.setOnClickListener {
+            val startNewActivity = Intent(this, TetrisMenu::class.java)
+            startActivity(startNewActivity)
+        }
+
     }
 }

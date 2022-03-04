@@ -10,7 +10,7 @@
     <string name="infoAboutOffline">All your data will be only in your device</string>
     <string name="butt_online_mode">Online</string>
     <string name="infoAboutOnline">All your data will be stored on our server and will be available
-        from any device</string>
+        from any device (not working yet)</string>
 
     <string name="notes">Notes</string>
     <string name="timetable">Timetable</string>
@@ -40,5 +40,8 @@
     <string name="information">Information about developers</string>
 
     <string name="place_for_map_api">place for map(API)</string>
+
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
 
 </resources>
