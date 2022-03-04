@@ -34,5 +34,11 @@ class MainMenu : AppCompatActivity() {
             startActivity(startNewActivity)
         }
 
+        val btnMap = findViewById<Button>(R.id.btnMap)
+        btnMap.setOnClickListener {
+            val startNewActivity = Intent(this, Map::class.java)
+            startActivity(startNewActivity)
+        }
+
     }
 }

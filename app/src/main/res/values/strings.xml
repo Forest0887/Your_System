@@ -37,4 +37,8 @@
     <string name="info">Info</string>
     <string name="tetris">Tetris</string>
 
+    <string name="information">Information about developers</string>
+
+    <string name="place_for_map_api">place for map(API)</string>
+
 </resources>
