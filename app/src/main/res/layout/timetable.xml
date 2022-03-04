@@ -5,97 +5,14 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".Timetable">
-
-    <LinearLayout
-        android:id="@+id/buttons_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/btnMn"
-            android:layout_width="52dp"
-            android:layout_height="wrap_content"
-            android:text="@string/mn"
-            android:textAlignment="viewStart"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:textSize="11sp"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btnTu"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:text="@string/tu"
-            android:textAlignment="viewStart"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:textSize="11sp"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btnWe"
-            android:layout_width="51dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:text="@string/we"
-            android:textAlignment="viewStart"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:textSize="11sp"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btnTh"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:text="@string/th"
-            android:textAlignment="viewStart"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:textSize="11sp"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btnFr"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:text="@string/fr"
-            android:textAlignment="viewStart"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:textSize="11sp"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btnSa"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:text="@string/sa"
-            android:textAlignment="viewStart"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:textSize="11sp"
-            tools:ignore="ButtonStyle" />
-
-        <Button
-            android:id="@+id/btnSu"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5sp"
-            android:text="@string/su"
-            android:textAlignment="viewStart"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:textSize="11sp"
-            tools:ignore="ButtonStyle" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="90sp"
+        android:layout_height="50sp"
+        android:text="@string/back"
+        android:layout_gravity="end"
+        android:layout_marginEnd="5sp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -121,13 +38,96 @@
             android:textSize="40sp"
             android:textStyle="bold"/>
 
-        <Button
-            android:id="@+id/btnBack"
-            android:layout_width="120sp"
-            android:layout_height="70sp"
-            android:text="@string/back"
-            android:layout_gravity="center_horizontal"
-            />
+    </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMn"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mn"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnTu"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:text="@string/tu"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnWe"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:text="@string/we"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnTh"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:text="@string/th"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnFr"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:text="@string/fr"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnSa"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:text="@string/sa"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnSu"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:text="@string/su"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
     </LinearLayout>
 </LinearLayout>

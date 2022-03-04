@@ -9,11 +9,13 @@ class TetrisMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tetris_menu)
+        supportActionBar?.hide()
 
-        val btnBack = findViewById<Button>(R.id.btnBack)
-        btnBack.setOnClickListener {
-            val startNewActivity = Intent(this, MainMenu::class.java)
+        val btnExit = findViewById<Button>(R.id.btnExit)
+        btnExit.setOnClickListener {
+            val startNewActivity = Intent(this, Settings::class.java)
             startActivity(startNewActivity)
         }
+
     }
 }
