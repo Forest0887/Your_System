@@ -10,15 +10,15 @@ class MainMenu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_menu)
 
-        val btnTimetable = findViewById<Button>(R.id.btnTimetable)
-        btnTimetable.setOnClickListener {
-            val startNewActivity = Intent(this, Timetable::class.java)
-            startActivity(startNewActivity)
-        }
-
         val btnNotes = findViewById<Button>(R.id.btnNotes)
         btnNotes.setOnClickListener {
             val startNewActivity = Intent(this, Notes::class.java)
+            startActivity(startNewActivity)
+        }
+
+        val btnTimetable = findViewById<Button>(R.id.btnTimetable)
+        btnTimetable.setOnClickListener {
+            val startNewActivity = Intent(this, Timetable::class.java)
             startActivity(startNewActivity)
         }
 

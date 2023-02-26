@@ -31,6 +31,9 @@
 
     <string name="plus">+</string>
 
+    <string name="add">Add</string>
+    <string name="ed_title_hint">Enter note text</string>
+
     <string name="language">Language</string>
     <string name="working_mode">Working mode</string>
     <string name="dark_light_mode">Dark Light mode</string>
