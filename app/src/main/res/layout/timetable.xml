@@ -30,13 +30,14 @@
             android:textStyle="bold"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:id="@+id/TV_TimeTable"
             android:layout_width="match_parent"
             android:layout_height="400sp"
-            android:text="@string/listOfLesson"
+            android:layout_marginTop="30dp"
+            android:text="Выберите день недели"
             android:textAlignment="center"
-            android:textSize="40sp"
-            android:textStyle="bold"/>
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -51,6 +52,7 @@
             android:id="@+id/btnMn"
             android:layout_width="52dp"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
             android:text="@string/mn"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
@@ -63,6 +65,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
+            android:onClick="onClick"
             android:text="@string/tu"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
@@ -75,6 +78,7 @@
             android:layout_width="51dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
+            android:onClick="onClick"
             android:text="@string/we"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
@@ -87,6 +91,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
+            android:onClick="onClick"
             android:text="@string/th"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
@@ -99,6 +104,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
+            android:onClick="onClick"
             android:text="@string/fr"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
@@ -111,6 +117,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
+            android:onClick="onClick"
             android:text="@string/sa"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
@@ -123,6 +130,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5sp"
+            android:onClick="onClick"
             android:text="@string/su"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"

@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Map">
 
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.yandex.mapkit.mapview.MapView>
+
     <Button
         android:id="@+id/btnBack"
         android:layout_width="90sp"
@@ -16,11 +22,6 @@
         android:layout_marginEnd="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-        <com.yandex.mapkit.mapview.MapView
-            android:id="@+id/mapview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
